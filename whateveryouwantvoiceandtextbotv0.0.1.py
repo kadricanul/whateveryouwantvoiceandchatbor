@@ -161,5 +161,5 @@ async def on_ready():
     print('------')
 
 
-bot.add_cog(Suatbot(bot))
+bot.add_cog(dailyfriendschatbot(bot))
 bot.run('YOUR BOT TOKEN HERE')
